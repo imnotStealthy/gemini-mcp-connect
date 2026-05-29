@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # gemini-mcp-connect installer
 # Local:  bash install.sh
-# Remote: curl -fsSL https://raw.githubusercontent.com/StealthyLabsHQ/gemini-mcp-connect/main/install.sh | bash
+# Remote: curl -fsSL https://raw.githubusercontent.com/imnotStealthy/gemini-mcp-connect/main/install.sh | bash
 
 set -e
 
-REPO_RAW="https://raw.githubusercontent.com/StealthyLabsHQ/gemini-mcp-connect/main"
+REPO_RAW="https://raw.githubusercontent.com/imnotStealthy/gemini-mcp-connect/main"
 PLUGIN_DIR="$HOME/.claude/plugins"
 COMMANDS_DIR="$HOME/.claude/commands"
 CLAUDE_MD="$HOME/.claude/CLAUDE.md"

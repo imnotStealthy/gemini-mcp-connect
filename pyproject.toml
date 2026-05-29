@@ -33,9 +33,9 @@ gemini-mcp-connect     = "gemini_bridge.server:main"
 gemini-mcp-connect-cli = "gemini_bridge.cli:main"
 
 [project.urls]
-Homepage   = "https://github.com/StealthyLabsHQ/gemini-mcp-connect"
-Repository = "https://github.com/StealthyLabsHQ/gemini-mcp-connect"
-Issues     = "https://github.com/StealthyLabsHQ/gemini-mcp-connect/issues"
+Homepage   = "https://github.com/imnotStealthy/gemini-mcp-connect"
+Repository = "https://github.com/imnotStealthy/gemini-mcp-connect"
+Issues     = "https://github.com/imnotStealthy/gemini-mcp-connect/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["gemini_bridge"]

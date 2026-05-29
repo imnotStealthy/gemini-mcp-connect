@@ -22,12 +22,12 @@ Gemini runs as a **native MCP tool**, not a bash script. Claude calls it directl
 
 **macOS / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/StealthyLabsHQ/gemini-mcp-connect/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/imnotStealthy/gemini-mcp-connect/main/install.sh | bash
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/StealthyLabsHQ/gemini-mcp-connect/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/imnotStealthy/gemini-mcp-connect/main/install.ps1 | iex
 ```
 
 Both scripts prompt for your Gemini API key. Get a free key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey).
@@ -48,14 +48,14 @@ claude mcp add --scope user gemini-mcp-connect -e GEMINI_API_KEY=your_key_here -
 
 **macOS / Linux:**
 ```bash
-git clone https://github.com/StealthyLabsHQ/gemini-mcp-connect
+git clone https://github.com/imnotStealthy/gemini-mcp-connect
 cd gemini-mcp-connect
 bash install.sh
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/StealthyLabsHQ/gemini-mcp-connect
+git clone https://github.com/imnotStealthy/gemini-mcp-connect
 cd gemini-mcp-connect
 .\install.ps1
 ```
@@ -190,4 +190,4 @@ gemini-mcp-connect/
 
 ## License
 
-MIT - [StealthyLabsHQ](https://github.com/StealthyLabsHQ)
+MIT - [imnotStealthy](https://github.com/imnotStealthy)

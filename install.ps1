@@ -1,10 +1,10 @@
 # gemini-mcp-connect installer for Windows
 # Local:  .\install.ps1
-# Remote: irm https://raw.githubusercontent.com/StealthyLabsHQ/gemini-mcp-connect/main/install.ps1 | iex
+# Remote: irm https://raw.githubusercontent.com/imnotStealthy/gemini-mcp-connect/main/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 
-$RepoRaw     = "https://raw.githubusercontent.com/StealthyLabsHQ/gemini-mcp-connect/main"
+$RepoRaw     = "https://raw.githubusercontent.com/imnotStealthy/gemini-mcp-connect/main"
 $PluginDir   = "$env:USERPROFILE\.claude\plugins"
 $CommandsDir = "$env:USERPROFILE\.claude\commands"
 $ClaudeMd    = "$env:USERPROFILE\.claude\CLAUDE.md"
